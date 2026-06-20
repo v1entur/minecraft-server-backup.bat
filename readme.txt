@@ -1,0 +1,28 @@
+Скрипт был создан для бэкапирования выбранных папок (например, мир или незер) и сохранения их в отдельную папку
+
+Установка: 
+1) скачайте и разместите файл backup.bat в корневую папку сервера
+2) В файле start.bat разместите в конце кода строку: start "Minecraft Backup Tool" cmd /k backup.bat
+
+Теперь при запуске сервера (start.bat) у вас будет сразу открываться окно с батником для бэкапирования
+Если хотите отключить автоматический запуск backup.bat, поставьте два двоеточия перед строкой запуска
+
+:: start "Minecraft Backup Tool" cmd /k backup.bat
+
+2026 github.com/v1entur
+
+=========================================================================================================================
+=========================================================================================================================
+
+This script was created to back up selected folders (such as “world” or “nether”) and save them to a separate folder
+
+Installation: 
+1) Download and place the backup.bat file in the server's root folder
+2) In the start.bat file, add the following line at the end of the code: start “Minecraft Backup Tool” cmd /k backup.bat
+
+Now, when you start the server (start.bat), a window with the backup script will open immediately.
+If you want to disable the automatic execution of backup.bat, add two colons before the command line:
+
+:: start “Minecraft Backup Tool” cmd /k backup.bat
+
+2026 github.com/v1entur
